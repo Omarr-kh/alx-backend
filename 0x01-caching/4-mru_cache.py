@@ -29,4 +29,3 @@ class MRUCache(BaseCaching):
         if key and key in self.cache_data:
             self.cache_data.move_to_end(key, last=True)
             return self.cache_data.get(key)
-
