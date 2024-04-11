@@ -96,7 +96,7 @@ def before_request() -> None:
 @app.route('/', strict_slashes=False)
 def home():
     """ home template """
-    return render_template('6-index.html', user=g.user)
+    return render_template('7-index.html', user=g.user)
 
 
 if __name__ == "__main__":
